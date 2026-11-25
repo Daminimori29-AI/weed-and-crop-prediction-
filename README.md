@@ -1,34 +1,63 @@
-# 🌱 Weed Detection using CNN
+# 🌱 AI-Based Crop and Weed Species Detection
 
-## 📌 Overview
-This project uses a Convolutional Neural Network (CNN) to classify images as crop or weed.
+## 📌 About Project
+This project uses Deep Learning and Convolutional Neural Networks (CNN) to identify crop and weed species from plant images.
 
-## 🧠 Working Principle
-The model learns patterns such as edges, shapes, and textures from images and uses them to classify inputs.
+Users can upload a plant image and get the predicted species, crop/weed classification, confidence score, and relevant precautions.
 
-## ⚙️ Tech Stack
+## 🎯 Features
+- Identifies 12 plant species.
+- Classifies plants as crops or weeds.
+- Displays prediction confidence.
+- Provides crop precautions and weed control methods.
+- Includes herbicide safety instructions.
+- Simple and user-friendly Streamlit interface.
+
+## 📊 Dataset
+**Plant Seedlings Dataset V2**
+
+Source: [Kaggle Dataset](https://www.kaggle.com/datasets/vbookshelf/v2-plant-seedlings-dataset)
+
+- 3 Crop Classes
+- 9 Weed Classes
+- Training and Validation Split: 80:20
+
+## 🛠️ Technologies Used
 - Python
-- TensorFlow
-- OpenCV
+- TensorFlow / Keras
+- CNN
+- Streamlit
 - NumPy
+- Pillow (PIL)
+
+## 🧠 Model
+A CNN-based deep learning model trained for 25 epochs to classify 12 plant species.
 
 ## 🚀 How to Run
-1. Run day4.py to train model
-2. Run day5.py to test images
 
-## 📊 Results
+Install dependencies:
 
-### Training
-![Training](images/training.png)
+```bash
+pip install streamlit tensorflow numpy pillow
+```
 
-### Prediction
-![Prediction](images/prediction.png)
+Run the application:
 
-## ⚠️ Limitations
-- Small dataset
-- Similar-looking crops and weeds may confuse model
+```bash
+streamlit run app.py
+```
 
-## 🚀 Future Work
-- Add more data
-- Use object detection (YOLO)
-- Real-time camera detection
+## 🔮 Future Scope
+- Improve model accuracy.
+- Add more plant species.
+- Provide detailed species-specific precautions.
+- Develop a mobile application.
+
+## ⚠️ Disclaimer
+This project is developed for educational purposes. Predictions should be verified before making agricultural decisions.
+
+---
+
+**Developed as an academic project**  
+Department of Artificial Intelligence and Data Science  
+Chameli Devi Group of Institutions, Indore
