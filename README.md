@@ -1,11 +1,11 @@
 # 🌱 AI-Based Crop and Weed Species Detection
 
-## 📌 About Project
+## About Project
 This project uses Deep Learning and Convolutional Neural Networks (CNN) to identify crop and weed species from plant images.
 
 Users can upload a plant image and get the predicted species, crop/weed classification, confidence score, and relevant precautions.
 
-## 🎯 Features
+## Features
 - Identifies 12 plant species.
 - Classifies plants as crops or weeds.
 - Displays prediction confidence.
@@ -13,7 +13,7 @@ Users can upload a plant image and get the predicted species, crop/weed classifi
 - Includes herbicide safety instructions.
 - Simple and user-friendly Streamlit interface.
 
-## 📊 Dataset
+## Dataset
 **Plant Seedlings Dataset V2**
 
 Source: [Kaggle Dataset](https://www.kaggle.com/datasets/vbookshelf/v2-plant-seedlings-dataset)
@@ -22,7 +22,7 @@ Source: [Kaggle Dataset](https://www.kaggle.com/datasets/vbookshelf/v2-plant-see
 - 9 Weed Classes
 - Training and Validation Split: 80:20
 
-## 🛠️ Technologies Used
+## Technologies Used
 - Python
 - TensorFlow / Keras
 - CNN
@@ -30,10 +30,10 @@ Source: [Kaggle Dataset](https://www.kaggle.com/datasets/vbookshelf/v2-plant-see
 - NumPy
 - Pillow (PIL)
 
-## 🧠 Model
+## Model
 A CNN-based deep learning model trained for 25 epochs to classify 12 plant species.
 
-## 🚀 How to Run
+## How to Run
 
 Install dependencies:
 
@@ -47,13 +47,13 @@ Run the application:
 streamlit run app.py
 ```
 
-## 🔮 Future Scope
+## Future Scope
 - Improve model accuracy.
 - Add more plant species.
 - Provide detailed species-specific precautions.
 - Develop a mobile application.
 
-## ⚠️ Disclaimer
+## Disclaimer
 This project is developed for educational purposes. Predictions should be verified before making agricultural decisions.
 
 ---
